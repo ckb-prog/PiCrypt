@@ -48,7 +48,7 @@ An open-source encryption mechanism for the Raspberry Pi
 ## Installation & Compilation
 ### 1. Clone or Download Source Code
 ```bash
-git clone https://github.com/your-username/picrypt.git
+https://github.com/ckb-prog/PiCrypt.git
 cd picrypt
 ```
 
@@ -132,11 +132,11 @@ Now, any packet entering or leaving your system is captured and passed to PiCryp
    After=network.target
 
    [Service]
-   ExecStart=/home/ckb/picrypt/picrypt
+   ExecStart=/home/USERNAME/picrypt/picrypt
    Restart=always
    User=root
    Group=root
-   WorkingDirectory=/home/ckb/picrypt
+   WorkingDirectory=/home/USERNAME/picrypt
    StandardOutput=null
    StandardError=journal
 
@@ -193,7 +193,8 @@ Now, any packet entering or leaving your system is captured and passed to PiCryp
 ---
 
 ## License
-This project does not currently specify a license, but you can assume it falls under a permissive license (e.g., **MIT**) for demonstration purposes. Always review licensing if you incorporate external libraries.
+GPL-3.0 license
+Always review licensing if you incorporate external libraries.
 
 ---
 
