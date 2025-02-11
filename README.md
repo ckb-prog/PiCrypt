@@ -197,10 +197,6 @@ This project does not currently specify a license, but you can assume it falls u
 
 ---
 
-## Author & Contact
-- **Maintainer**: [Your Name or Org]
-- **Email**: [email@example.com]
-
 Feel free to create an **Issue** or submit a **Pull Request** on GitHub if you encounter bugs or have suggestions.
 
 ---
