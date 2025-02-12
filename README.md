@@ -7,7 +7,7 @@
 - **PiDecrypt** runs on the **receiver** side, intercepting and decrypting inbound packets.
 
 They use **Netfilter Queue** to hook into Linux’s packet processing, so that normal applications send and receive data as usual, but the payload is transparently encrypted in-flight.
-
+- While intended for Raspberry Pi OS Linux devices, the programs may perform as intended with other operating systems. **Untested**
 ---
 
 ## How It Works
